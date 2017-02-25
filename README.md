@@ -60,9 +60,9 @@ Then you can utilize the `task` in your template like so:
 ```hbs
 <ul>
   {{#if model.postsTask.isRunning}}
-    Loading..
+    Loading your posts..
   {{else}}
-    {{#each model.postTask.value as |post|}}
+    {{#each model.postsTask.value as |post|}}
       <li>{{post.name}}</li>
     {{/each}}
   {{/if}}
