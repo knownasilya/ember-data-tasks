@@ -1,6 +1,6 @@
 {
   "name": "ember-data-tasks",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Task based (ember-concurrency) Ember Data API",
   "keywords": [
     "ember-addon",
