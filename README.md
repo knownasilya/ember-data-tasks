@@ -8,7 +8,7 @@ An alternative Ember Data store that returns [Ember Concurrency] tasks instead o
 ember install ember-data-tasks
 ```
 
-## Usage
+## Setup
 
 Override your existing store, by creating a new store:
 
@@ -24,9 +24,13 @@ import Store from 'ember-data-tasks/services/store';
 export default Store;
 ```
 
-Now you can use your Ember Data like before, and nothing has changed.
-But if you want immediate responses, you will have to wrap your store
-responses in a hash.
+## Use
+
+Now you can use your Ember Data like before, and nothing has changed, since this
+store is backwards compatible, due to the fact that `tasks` also adhear to the promise spec.
+
+But you didn't come here for the same old, you want immediate results.
+To take advantage of the benefits of tasks, you will have to wrap your store responses in a hash.
 
 The example below will hit `afterModel` after the backend has resolved with data:
 
@@ -71,7 +75,7 @@ Then you can utilize the `task` in your template like so:
 
 This seems like a slight annoyance at first, due to the extra level of nesting, but
 in the end if you build ambitious apps, you will most likely return multiple
-tasks, and would have used `Ember.RSVP.hash` if working with promises.
+tasks, and would have used `Ember.RSVP.hash` anyway, if working with promises.
 
 **Note: You can unwrap the task hash in `setupController`, if it really bothers you.**
 
