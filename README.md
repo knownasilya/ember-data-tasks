@@ -134,7 +134,7 @@ App = Ember.Application.extend({
 loadInitializers(App, config.modulePrefix);
 
 // Add this model reopen
-DS.model.reopen(TaskModelMixin);
+DS.Model.reopen(TaskModelMixin);
 
 export default App;
 ```
