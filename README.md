@@ -38,7 +38,7 @@ export default DS.Store.extend(TaskStoreMixin);
 ### Use
 
 Now you can use your Ember Data store like before, and nothing has changed, since this
-store is backwards compatible, due to the fact that `tasks` also adhear to the promise spec.
+store is backwards compatible, due to the fact that `tasks` also adhere to the promise spec.
 
 But you didn't come here for the same old, you want immediate results.
 To take advantage of the benefits of tasks, you will have to wrap your store responses in a hash.
