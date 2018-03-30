@@ -1,13 +1,10 @@
-import { waitForProperty } from 'ember-concurrency';
+import { allSettled } from 'ember-concurrency';
 
 export default async function notifyAfterLoad(hash, callback) {
-  await waitForProperty(
-    Object.values(hash),
-    'state',
-    'finished',
-  );
-
-  callback(hash);
+  allSettled(Object.values(hash))
+    .then(() => {
+      callback(hash);
+    });
 
   return hash;
 };
