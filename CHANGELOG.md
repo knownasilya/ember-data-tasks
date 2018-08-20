@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/knownasilya/ember-data-tasks/compare/v1.0.2...v1.1.0) (2018-08-20)
+
+
+### Bug Fixes
+
+* Upgrade deps ([#9](https://github.com/knownasilya/ember-data-tasks/issues/9)) ([88e1c5e](https://github.com/knownasilya/ember-data-tasks/commit/88e1c5e))
+
+
+### Features
+
+* after model utility ([#7](https://github.com/knownasilya/ember-data-tasks/issues/7)) ([a632142](https://github.com/knownasilya/ember-data-tasks/commit/a632142))
+
+
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/knownasilya/ember-data-tasks/compare/v1.0.1...v1.0.2) (2018-03-24)
 
