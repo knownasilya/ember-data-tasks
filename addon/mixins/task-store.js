@@ -1,7 +1,7 @@
-import Ember from 'ember';
+import Mixin from '@ember/object/mixin';
 import { task } from 'ember-concurrency';
 
-export default Ember.Mixin.create({
+export default Mixin.create({
   findAll() {
     let promise = this._super(...arguments);
     return this.get('wrap').perform(promise);
