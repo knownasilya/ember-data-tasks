@@ -8,7 +8,7 @@
     "ember-concurrency",
     "tasks"
   ],
-  "repository": "",
+  "repository": "github:knownasilya/ember-data-tasks",
   "license": "MIT",
   "author": "Ilya Radchenko",
   "directories": {
