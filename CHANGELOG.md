@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/knownasilya/ember-data-tasks/compare/v1.1.0...v1.1.1) (2019-01-30)
+
+
+### Bug Fixes
+
+* Added git repo to help emberobserver ([#10](https://github.com/knownasilya/ember-data-tasks/issues/10)) ([bce7fa9](https://github.com/knownasilya/ember-data-tasks/commit/bce7fa9))
+* Allow minor/patch version changes in e-concurrency ([#11](https://github.com/knownasilya/ember-data-tasks/issues/11)) ([952c79e](https://github.com/knownasilya/ember-data-tasks/commit/952c79e))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/knownasilya/ember-data-tasks/compare/v1.0.2...v1.1.0) (2018-08-20)
 
